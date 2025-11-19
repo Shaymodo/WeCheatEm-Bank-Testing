@@ -1,0 +1,9 @@
+Rule,C1_Past_Delinquent,C2_MinPay_Over_10,C3_ActualPay_Meets_Min,Loan_Amount,Input_Pay_Amount,Expected_Required_Min,Expected_LateFee_Applied
+R1,Y,Y,Y,5000.00,150.50,150.50,N
+R2,Y,Y,N,5000.00,150.49,150.50,Y
+R3,Y,N,Y,500.00,60.05,60.05,N
+R4,Y,N,N,500.00,60.04,60.05,Y
+R5,N,Y,Y,5000.00,100.00,100.00,N
+R6,N,Y,N,5000.00,99.99,100.00,Y
+R7,N,N,Y,500.00,10.00,10.00,N
+R8,N,N,N,500.00,9.99,10.00,Y
